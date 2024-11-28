@@ -11,6 +11,7 @@ import Link from "next/link";
 import { IoMenu } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
 import { BiSolidPhoneCall } from "react-icons/bi";
+import { FcCancel } from "react-icons/fc";
 
 
 
@@ -38,14 +39,14 @@ const Navbar=()=>{
                 {/* other screen responsive */}
 
                 <div className="">        
-                    <ul className=" lg:flex hidden lg:text-sm     lg:gap-6">
+                    <ul className=" lg:flex lg:items-center hidden lg:text-sm lg:gap-6">
 
                     <Link href={'/'}>
                         <li className="hover:bg-blue-600 hover:text-white p-3 rounded-xl shake cursor-pointer font-medium flex items-center gap-1 "><IoHome/>HOME </li>
                     </Link>
 
                     <Link href={'/about'}>
-                        <li className="hover:bg-blue-600 hover:text-white p-3 rounded-xl shake cursor-pointer font-medium flex gap-1 items-center "><BiSolidBookReader/>ABOUT HASH<span className=""></span></li>
+                        <li className="hover:bg-blue-600 hover:text-white p-3 rounded-xl shake cursor-pointer font-medium flex gap-1 items-center "><BiSolidBookReader/>ABOUT<span className=""></span></li>
                     </Link>
 
 
@@ -123,12 +124,12 @@ const Navbar=()=>{
                     </Link>
 
                     <Link href={'/contact'}>
-                        <li className="hover:bg-blue-600 hover:text-white  p-3 rounded-xl cursor-pointer font-medium flex gap-1 items-center "><BiSolidPhoneCall /> CONTACT US </li>
+                        <li className="hover:bg-blue-600 hover:text-white p-3 rounded-xl cursor-pointer font-medium flex gap-1 items-center "><BiSolidPhoneCall /> CONTACT US </li>
                     </Link>
 
-                    {/* <Link href={''}>
-                        <li className="hover:bg-blue-600 hover:text-white  p-3 rounded-xl cursor-pointer font-medium flex items-center gap-1 "><FcCancel /> SUSPENSION </li>
-                    </Link> */}
+                    <Link href={''}>
+                        <li className="hover:bg-blue-600 hover:text-white p-3 rounded-xl cursor-pointer font-medium flex items-center gap-1 "><FcCancel /> SUSPENSION </li>
+                    </Link>
                     </ul>
                         </div>
 
