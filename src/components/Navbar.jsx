@@ -97,8 +97,8 @@ const Navbar=()=>{
 
                     {menu===true ? <div className="text-4xl cursor-pointer"><IoMdClose />
 
-                        <p className=" mt-20  absolute    min-h-[30vh] left-0 top-[11%] flex  p-5 text-base">        
-                    <ul className=" flex flex-col gap-3 text-sm  roll-in-right bg-red-200 w-[90vw]  px-[1rem] py-5">
+                        <div className=" mt-20  absolute left-0 top-[11%] flex pt-5 text-base">        
+                    <ul className=" flex flex-col gap-3 text-sm h-screen roll-in-right bg-red-200 w-[100vw]  px-[1rem] py-5">
 
                     <Link href={'/'}>
                         <li className="hover:bg-blue-600 hover:text-white p-3 rounded-xl cursor-pointer font-medium flex items-center gap-1  "><IoHome/>HOME </li>
@@ -130,7 +130,7 @@ const Navbar=()=>{
                         <li className="hover:bg-blue-600 hover:text-white  p-3 rounded-xl cursor-pointer font-medium flex items-center gap-1 "><FcCancel /> SUSPENSION </li>
                     </Link> */}
                     </ul>
-                        </p>
+                        </div>
 
                     </div> :   <p className="text-3xl cursor-pointer"><IoMenu /> </p> }
                     
