@@ -27,7 +27,7 @@ const Navbar=()=>{
 
     return(
         <div className="">
-            <nav className="flex justify-between bg-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] bg-opacity-45 backdrop-blur-xl  items-center px-[1rem] lg:px-[5rem] py-[1rem] w-full z-50 fixed ">
+            <nav className="flex justify-between bg-white shadow-[rgba(50,50,93,0.25)_0px_6px_12px_-2px,_rgba(0,0,0,0.3)_0px_3px_7px_-3px] bg-opacity-45 backdrop-blur-xl items-center px-[1rem] lg:px-[5rem] py-[1rem] w-full z-50 fixed ">
 
                 <Link href={'/'}>
                     <div>
@@ -72,13 +72,7 @@ const Navbar=()=>{
 
 
                 </div>
-
-
-
-              
-
-
-            
+         
 
                 {/* Contact Us button  */}
                 <Link href={'/contact'}>
@@ -101,7 +95,7 @@ const Navbar=()=>{
                 {/* for mobile responsive */}
                 <div onClick={toggleMenu} className=" lg:hidden flex items-center  ">
 
-                    {menu===true ? <p className="text-4xl cursor-pointer"><IoMdClose />
+                    {menu===true ? <div className="text-4xl cursor-pointer"><IoMdClose />
 
                         <p className=" mt-20  absolute    min-h-[30vh] left-0 top-[11%] flex  p-5 text-base">        
                     <ul className=" flex flex-col gap-3 text-sm  roll-in-right bg-red-200 w-[90vw]  px-[1rem] py-5">
@@ -138,15 +132,10 @@ const Navbar=()=>{
                     </ul>
                         </p>
 
-                    </p> :   <p className="text-3xl cursor-pointer"><IoMenu /> </p> }
+                    </div> :   <p className="text-3xl cursor-pointer"><IoMenu /> </p> }
                     
                    
                 </div>
-                
-                
-               
-
-
             </nav>
         </div>
     )
