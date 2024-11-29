@@ -2,8 +2,41 @@
 
 
 import React from "react"
-import { IoIosFastforward } from "react-icons/io";
 import Image from "next/image";
+
+
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Navigation } from 'swiper/modules';
+import 'swiper/css/navigation';
+// import required modules
+import { Pagination } from 'swiper/modules';
+
+import swiper1 from "../image/swiper1.jpg"
+import swiper2 from "../image/swiper2.jpg"
+import swiper3 from "../image/swiper3.jpg"
+import swiper4 from "../image/swiper4.jpg"
+import swiper5 from "../image/swiper5.jpg"
+import swiper6 from "../image/swiper6.jpg"
+import swiper7 from "../image/swiper7.jpg"
+import swiper8 from "../image/swiper8.jpg"
+import swiper9 from "../image/swiper9.jpg"
+import swiper10 from "../image/swiper10.jpg"
+import swiper11 from "../image/swiper11.jpg"
+import swiper13 from "../image/swiper13.jpg"
+import swiper14 from "../image/swiper14.jpg"
+import swiper15 from "../image/swiper15.jpg"
+import swiper16 from "../image/swiper16.jpg"
+import swiper17 from "../image/swiper17.jpg"
+import swiper18 from "../image/swiper18.jpg"
+import swiper19 from "../image/swiper19.jpg"
+import swiper20 from "../image/swiper20.jpg"
+import swiper21 from "../image/swiper21.jpg"
+import swiper22 from "../image/swiper22.jpg"
+import swiper23 from "../image/swiper23.jpg"
 
 
 
@@ -17,7 +50,8 @@ const Hero=()=>{
             <section className="pt-32 md:pt-40 px-[1rem] lg:px-[5rem]">
                <div className="flex relative ">
                     <div className="flex flex-col gap-2">
-                        <p className=" text-xl md:text-2xl font-serif font-extrabold text-black">Port Harcourt Hash House Harriers.</p>
+                        <p className=" text-xl md:text-2xl font-serif font-extrabold text-black">Port Harcourt</p>
+                        <p className=" text-xl md:text-2xl font-serif font-extrabold text-black"> Hash House Harriers.</p>
                         <p className="text-[14px] md:text-xl  font-serif  text-black  ">Welcome to the vibrant world of Hashers, <br /> a running club with a drinking problem or <br /> a drinking club with a running problem.</p>
                     </div>
 
@@ -27,8 +61,8 @@ const Hero=()=>{
                     </div>
                </div>
 
-                <p className=" hidden md:flex absolute top-[18rem] left-[28rem] bounce-in-top"><Image src="/image/shoe.png" width={100} height={100} alt="image"/></p> 
-                <p className=" hidden md:flex absolute top-[7rem] right-[24rem] vibrate-1 "><Image src="/image/beer.png" width={100} height={100} alt="image"/></p> 
+                <p className=" hidden md:flex absolute top-[21rem] left-[22.5rem] bounce-in-top"><Image src="/image/shoe.png" width={100} height={100} alt="image"/></p> 
+                <p className=" hidden md:flex absolute top-[8rem] right-[30rem] vibrate-1 "><Image src="/image/beer.png" width={100} height={100} alt="image"/></p> 
 
                 {/* Modals */}
                 {/* You can open the modal using document.getElementById('ID').showModal() method */}
@@ -43,7 +77,7 @@ const Hero=()=>{
                             <span className="flex justify-center"><Image src="/image/logo.png" width={80} height={80} alt="logo"/></span>
                             <div>
                                 <h2 className="font-bold text-lg text-center py-2">Weekly Run Information</h2>
-                                <ul className="flex flex-col ">
+                                <ul className="flex flex-col gap-1">
                                     <li><b>Run No:</b> 1000</li>
                                     <li><b>Date:</b> Friday 20<sup>th</sup> September, 2024</li>
                                     <li><b>Venue:</b> Nwanyi Enugu, GRA Phase II,  Port Harcourt.</li>
@@ -57,8 +91,8 @@ const Hero=()=>{
                     </dialog>
                 </div>
 
-                {/* swiper tablet & laptops responsive */}
-                {/* <div className='mt-6'>
+                {/* swiper mobile, tablet & laptops responsive */}
+                <div className='mt-6'>
                     <Swiper
                     slidesPerView={1}
                     spaceBetween={30}
@@ -76,7 +110,7 @@ const Hero=()=>{
                     >
                     <SwiperSlide>
                         <div className='h-48 w-full overflow-hidden'>
-                            <Image src={pic1a} width={0} height={0} alt='image' className='rounded-[12px] h-full w-full object-cover'/>
+                            <Image src={swiper1} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
                         </div>
                     </SwiperSlide>
 
@@ -84,20 +118,20 @@ const Hero=()=>{
 
                     <SwiperSlide>
                         <div className='h-48 w-full overflow-hidden'>
-                            <Image src={pic1} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
+                            <Image src={swiper2} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
                         </div>
                     </SwiperSlide>
 
 
                     <SwiperSlide>
                         <div className='h-48 w-full overflow-hidden'>
-                            <Image src={pic2} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
+                            <Image src={swiper3} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
                         </div>
                     </SwiperSlide>
                 
                     <SwiperSlide>
                         <div className='h-48 w-full overflow-hidden'>
-                            <Image src={pic3} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
+                            <Image src={swiper4} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
                         </div>
                     </SwiperSlide>
 
@@ -105,91 +139,122 @@ const Hero=()=>{
 
                     <SwiperSlide>
                         <div className='h-48 w-full overflow-hidden'>
-                            <Image src={pic4} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
+                            <Image src={swiper5} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
                         </div>
                     </SwiperSlide>
 
 
-                    <SwiperSlide   SwiperSlide>
+                    <SwiperSlide >
                         <div className='h-48 w-full overflow-hidden'>
-                            <Image src={pic5} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
-                        </div>
-                    </SwiperSlide>
-
-
-                    <SwiperSlide>
-                        <div className='h-48 w-full overflow-hidden'>
-                            <Image src={pic6} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
+                            <Image src={swiper6} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
                         </div>
                     </SwiperSlide>
 
 
                     <SwiperSlide>
                         <div className='h-48 w-full overflow-hidden'>
-                            <Image src={pic7} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
+                            <Image src={swiper7} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
                         </div>
                     </SwiperSlide>
 
 
                     <SwiperSlide>
                         <div className='h-48 w-full overflow-hidden'>
-                            <Image src={pic8} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
+                            <Image src={swiper8} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
                         </div>
                     </SwiperSlide>
 
 
                     <SwiperSlide>
                         <div className='h-48 w-full overflow-hidden'>
-                            <Image src={pic9} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
+                            <Image src={swiper9} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
                         </div>
                     </SwiperSlide>
 
 
                     <SwiperSlide>
                         <div className='h-48 w-full overflow-hidden'>
-                            <Image src={pic11} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
-                        </div>
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <div className='h-48 w-full overflow-hidden'>
-                            <Image src={pic12} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
-                        </div>
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <div className='h-48 w-full overflow-hidden'>
-                            <Image src={pic13} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
-                        </div>
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <div className='h-48 w-full overflow-hidden'>
-                            <Image src={pic14} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
-                        </div>
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <div className='h-48 w-full overflow-hidden'>
-                            <Image src={pic15} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
+                            <Image src={swiper10} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
                         </div>
                     </SwiperSlide>
 
 
                     <SwiperSlide>
                         <div className='h-48 w-full overflow-hidden'>
-                            <Image src={pic16} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
+                            <Image src={swiper11} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
+                        </div>
+                    </SwiperSlide>
+
+
+                    <SwiperSlide>
+                        <div className='h-48 w-full overflow-hidden'>
+                            <Image src={swiper13} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
                         </div>
                     </SwiperSlide>
 
                     <SwiperSlide>
                         <div className='h-48 w-full overflow-hidden'>
-                            <Image src={pic17} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
+                            <Image src={swiper14} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className='h-48 w-full overflow-hidden'>
+                            <Image src={swiper15} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
+                        </div>
+                    </SwiperSlide>
+
+
+                    <SwiperSlide>
+                        <div className='h-48 w-full overflow-hidden'>
+                            <Image src={swiper16} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className='h-48 w-full overflow-hidden'>
+                            <Image src={swiper17} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className='h-48 w-full overflow-hidden'>
+                            <Image src={swiper18} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className='h-48 w-full overflow-hidden'>
+                            <Image src={swiper19} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className='h-48 w-full overflow-hidden'>
+                            <Image src={swiper20} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className='h-48 w-full overflow-hidden'>
+                            <Image src={swiper21} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className='h-48 w-full overflow-hidden'>
+                            <Image src={swiper22} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
+                        </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <div className='h-48 w-full overflow-hidden'>
+                            <Image src={swiper23} width={0} height={0}alt='image' className='rounded-[12px] h-full w-full object-cover'/>
                         </div>
                     </SwiperSlide>
 
                     </Swiper>
-                </div> */}
+                </div>
 
             </section>
         </>
