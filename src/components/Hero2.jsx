@@ -82,7 +82,7 @@ const Hero2=()=>{
                     <div data-aos="fade-right"
                         data-aos-duration="2000" className="justify-center flex flex-col gap-2">
                         <h1 className="text-sm lg:text-3xl font-serif font-bold text-white">DISCOVER THE JOY OF <br /> RUNNING AND DRINKING BEER!</h1>
-                        <p className="mt-4 font-serif text-white text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                        <p className="mt-3 font-serif text-white text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
                         Neque pariatur natus, adipisci culpa eos saepe numquam</p>
 
                         <div className="mt-4">
@@ -107,7 +107,7 @@ const Hero2=()=>{
                 </div>
 
                 {/* 2 */}
-                <div  className="flex mt-1 bg-black px-[1rem] lg:px-[5rem] py-10 flex-wrap ">
+                <div  className="flex mt-1 bg-black px-[1rem] lg:px-[3rem] py-10 flex-wrap ">
 
                     <div data-aos="fade-right"
                         data-aos-duration="2000" className="">
@@ -117,8 +117,8 @@ const Hero2=()=>{
 
                     <div data-aos="fade-left"
                         data-aos-duration="2000" className="justify-center flex flex-col ml-auto">
-                        <h1 className="text-sm lg:text-3xl font-serif font-bold text-white">DISCOVER THE JOY OF <br /> RUNNING AND DRINKING BEER!</h1>
-                        <p className="mt-4 font-serif text-white text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                        <h1 className="text-sm pt-5 lg:text-3xl font-serif font-bold text-white">EITHER YOU RUN THE DAY <br /> OR THE DAY RUNS YOU!</h1>
+                        <p className="mt-4 font-serif text-white text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
                         Neque pariatur natus, adipisci culpa eos saepe numquam</p>
 
                         <div className="mt-4">
@@ -141,8 +141,8 @@ const Hero2=()=>{
                 <div  className="flex mt-1 bg-red-800 px-[1rem] lg:px-[5rem] py-10 flex-wrap">
                     <div data-aos="fade-left"
                         data-aos-duration="2000" className="justify-center flex flex-col">
-                        <h1 className="text-sm lg:text-3xl font-serif font-bold text-white">DISCOVER THE JOY OF <br /> RUNNING AND DRINKING BEER!</h1>
-                        <p className="mt-4 font-serif text-white text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                        <h1 className="text-sm lg:text-3xl font-serif font-bold text-white">DISCOVER THE JOY OF <br /> DRINKING BEER AND RUNNING!</h1>
+                        <p className="mt-4 font-serif text-white text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
                         Neque pariatur natus, adipisci culpa eos saepe numquam</p>
 
                         <div className="mt-4">
