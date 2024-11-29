@@ -32,7 +32,7 @@ const Navbar=()=>{
 
                 <Link href={'/'}>
                     <div>
-                        <Image src="/image/logo.png" width={80} height={80} alt="logo" className=""/>
+                        <Image src="/image/logo1.jpg" width={80} height={80} alt="logo" className="rounded-full"/>
                     </div>
                 </Link>
 
