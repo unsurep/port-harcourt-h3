@@ -72,7 +72,7 @@ const Hero=()=>{
 
 
                 {/* for mobile screen */}
-                <p className="flex md:hidden absolute top-[21rem] left-[] bounce-in-top"><Image src="/image/shoe.png" width={50} height={50} alt="image"/></p> 
+                <p className="flex md:hidden absolute top-[22rem] left-[] bounce-in-top"><Image src="/image/shoe.png" width={50} height={50} alt="image"/></p> 
 
                 <p className="flex md:hidden absolute top-[16.5rem] right-[3rem] vibrate-1 "><Image src="/image/beer.png" width={50} height={50} alt="image"/></p>
 
