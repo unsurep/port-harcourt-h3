@@ -256,7 +256,17 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 70vh;
+  height: 60vh;
+  border-radius: 20px;
+}
+
+.guildline{
+  background-image: url(../image/gline.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
   border-radius: 20px;
 }
 
