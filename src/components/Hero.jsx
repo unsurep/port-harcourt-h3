@@ -47,7 +47,7 @@ const Hero=()=>{
 
     return(
         <>
-            <section className="pt-32 md:pt-40 px-[1rem] lg:px-[5rem]">
+            <section className="pt-32 md:pt-40 px-[1rem] lg:px-[5rem] relative">
                <div className="lg:flex relative ">
                     <div className="flex flex-col gap-2">
                         <p className=" text-xl md:text-2xl font-serif font-extrabold text-black">Port Harcourt</p>
@@ -60,13 +60,24 @@ const Hero=()=>{
                        <Image src="/image/trail.png" width={500} height={500} alt="image" />
                     </div>
 
+                   
                     <div className="md:flex lg:hidden">
                        <Image src="/image/trail.png" width={500} height={500} alt="image" />
                     </div>
                </div>
 
+                {/* for laptop screen  */}
                 <p className=" hidden lg:flex absolute top-[21rem] left-[22.5rem] bounce-in-top"><Image src="/image/shoe.png" width={100} height={100} alt="image"/></p> 
                 <p className=" hidden lg:flex absolute top-[8rem] right-[30rem] vibrate-1 "><Image src="/image/beer.png" width={100} height={100} alt="image"/></p> 
+
+
+                {/* for mobile screen */}
+                <p className="flex md:hidden absolute top-[21rem] left-[] bounce-in-top"><Image src="/image/shoe.png" width={50} height={50} alt="image"/></p> 
+
+                <p className="flex md:hidden absolute top-[16.5rem] right-[3rem] vibrate-1 "><Image src="/image/beer.png" width={50} height={50} alt="image"/></p>
+
+
+
 
                 {/* Modals */}
                 {/* You can open the modal using document.getElementById('ID').showModal() method */}

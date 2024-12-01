@@ -127,9 +127,9 @@ const Navbar=()=>{
                         <li className="hover:bg-blue-600 hover:text-white p-3 rounded-xl cursor-pointer font-medium flex gap-1 items-center "><BiSolidPhoneCall /> CONTACT US </li>
                     </Link>
 
-                    <Link href={''}>
+                    {/* <Link href={''}>
                         <li className="hover:bg-blue-600 hover:text-white p-3 rounded-xl cursor-pointer font-medium flex items-center gap-1 "><FcCancel /> SUSPENSION </li>
-                    </Link>
+                    </Link> */}
                     </ul>
                         </div>
 

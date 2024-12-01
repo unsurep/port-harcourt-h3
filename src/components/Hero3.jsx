@@ -237,9 +237,9 @@ const Hero3=()=>{
                 
 
                 {/* Shop with PHH3 coming soon!!! */}
-                <div className="mt-20 w-full text-center shake rounded-xl font-serif font-extrabold bg-sky-800 inline-block p-5 cursor-pointer shadow-[0px_10px_1px_rgba(221,_221,_221,_1),_0_10px_20px_rgba(204,_204,_204,_1)]"><span className="loader text-sm">SHOP WITH PORT HARCOURT HASH HOUSE HARRIERS COMING SOON...</span></div>
+                <div className="mt-20 w-full text-center shake rounded-xl font-serif font-extrabold bg-sky-800 p-2 cursor-pointer shadow-[0px_10px_1px_rgba(221,_221,_221,_1),_0_10px_20px_rgba(204,_204,_204,_1)]"><span className="loader text-[12px]">SHOP WITH PORT HARCOURT HASH HOUSE HARRIERS COMING SOON...</span></div>
 
-                <h1 className='justify-center flex my-8'>
+                <h1 className='justify-center flex my-20'>
                     <Image src="/image/dc.jpg" width={800} height={800} alt='image' className=''/>
                 </h1>
 

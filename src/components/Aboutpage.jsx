@@ -13,7 +13,7 @@ const AboutPage=()=>{
             <section className="text-black">
 
                 <div className="flex items-center justify-center gap-5 pb-12">
-                    <h1 className="text-[14px] md:text-xl w-full text-center shake rounded-xl font-serif font-extrabold hover:bg-sky-800 hover:text-white inline-block text-black p-5 cursor-pointer shadow-[0px_10px_1px_rgba(221,_221,_221,_1),_0_10px_20px_rgba(204,_204,_204,_1)]">ABOUT THE HASH </h1>
+                    <h1 className="text-base md:text-base w-full text-center shake rounded-xl font-serif font-extrabold hover:bg-sky-800 hover:text-white inline-block text-black p-5 cursor-pointer shadow-[0px_10px_1px_rgba(221,_221,_221,_1),_0_10px_20px_rgba(204,_204,_204,_1)]">ABOUT THE HASH </h1>
                     <Image src="/image/beericon.png" width={30} height={30} alt="image " className="shake cursor-pointer"/> 
                 </div>
 
