@@ -249,3 +249,103 @@ body {
             transform: translateX(-6px) rotate(-1.2deg);
   }
 }
+
+.about{
+  background-image: url(../image/aboutbg.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+  border-radius: 20px;
+}
+
+
+/* shake */
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-10px);
+  }
+
+  20%, 40%, 60%, 80% {
+    transform: translateX(10px);
+  }
+
+}
+
+.shake:hover{
+  animation: shake 10s;
+}
+
+
+/* shaking button animation */
+/* Define the vibration animation */
+@keyframes vibrate {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-2px); }
+  50% { transform: translateX(2px); }
+  75% { transform: translateX(-2px); }
+  100% { transform: translateX(0); }
+}
+
+
+/* Apply the hover effect to the element */
+.element {
+  display: inline-block;
+  /* Any other styling for your element */
+  transition: all 0.3s ease;
+}
+
+.element:hover {
+  animation: vibrate 0.2s linear infinite;
+}
+
+
+
+.loader{
+  display: inline-block;
+  text-align: center;
+  line-height: 86px;
+  text-align: center;
+  position: relative;
+  padding: 0 48px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffffbd;
+  }
+  .loader:before, .loader:after {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: currentColor;
+    position: absolute;
+    animation: load .7s infinite alternate ease-in-out;
+    top: 0;
+  }
+  .loader:after {
+    top: auto;
+    bottom: 0;
+  }
+@keyframes load {
+  0% {
+    left: 0;
+    height: 43px;
+    width: 15px;
+    transform: translateX(0)
+  }
+  50% {
+    height: 10px;
+    width: 40px
+  }
+  100% {
+    left: 100%;
+    height: 43px;
+    width: 15px;
+    transform: translateX(-100%)
+  }
+}
