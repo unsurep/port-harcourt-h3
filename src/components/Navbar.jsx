@@ -42,25 +42,25 @@ const Navbar=()=>{
                     <ul className=" lg:flex lg:items-center hidden lg:text-sm lg:gap-6">
 
                     <Link href={'/'}>
-                        <li className="hover:bg-blue-600 hover:text-white p-3 rounded-xl shake cursor-pointer font-medium flex items-center gap-1 "><IoHome/>HOME </li>
+                        <li className="hover:bg-sky-800 hover:text-white p-3 rounded-xl shake cursor-pointer font-medium flex items-center gap-1 "><IoHome/>HOME </li>
                     </Link>
 
                     <Link href={'/about'}>
-                        <li className="hover:bg-blue-600 hover:text-white p-3 rounded-xl shake cursor-pointer font-medium flex gap-1 items-center "><BiSolidBookReader/>ABOUT<span className=""></span></li>
+                        <li className="hover:bg-sky-800 hover:text-white p-3 rounded-xl shake cursor-pointer font-medium flex gap-1 items-center "><BiSolidBookReader/>ABOUT<span className=""></span></li>
                     </Link>
 
 
                     <Link href={'/mismanagement'}>
-                        <li className="hover:bg-blue-600 hover:text-white p-3 rounded-xl shake cursor-pointer font-medium flex items-center gap-1 "><RiSettings2Fill/>MISMA</li>
+                        <li className="hover:bg-sky-800 hover:text-white p-3 rounded-xl shake cursor-pointer font-medium flex items-center gap-1 "><RiSettings2Fill/>MISMA</li>
                     </Link>
 
 
                     <Link href={'/photo'}>
-                        <li className="hover:bg-blue-600 hover:text-white p-3 rounded-xl shake cursor-pointer font-medium flex gap-1 items-center "><FaCamera/>PHOTOS </li>
+                        <li className="hover:bg-sky-800 hover:text-white p-3 rounded-xl shake cursor-pointer font-medium flex gap-1 items-center "><FaCamera/>PHOTOS </li>
                     </Link>
 
                     <Link href={'/guidelines'}>
-                        <li className="hover:bg-blue-600 hover:text-white  p-3 rounded-xl shake cursor-pointer font-medium flex items-center gap-1 "><BiSolidBookReader/> GUIDELINES </li>
+                        <li className="hover:bg-sky-800 hover:text-white  p-3 rounded-xl shake cursor-pointer font-medium flex items-center gap-1 "><BiSolidBookReader/> GUIDELINES </li>
                     </Link>
 
                     {/* <Link href={''}>
